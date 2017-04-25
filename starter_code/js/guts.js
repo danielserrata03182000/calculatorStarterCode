@@ -4,34 +4,48 @@
 
 
 function divide(x,y) {
-	//Write your code below this line
+
+    var quotient = x/y;
+    return quotient;
 
 }
 
 function multiply(x,y) {
+    var product = x*y;
+    return product;
+
 
 }
 
 function subtract(x,y) {
+    var difference = x-y;
+    return difference;
+    
 
 }
 
 function add(x,y) {
+    var sum = x+y;
+    return sum; 
 
 }
 
 function power(x,y) {
-
+    var power = x^y;
+    return Math.pow(x,y);
 }
 
 function square_root(x) {
-
+    var root = x;
+    return Math.sqrt(x)
+    
 }
 
 function logBase10(x) {
+    return Math.log10(x)
 
 }
 
 function generateRandomNumber() {
-
+       return Math.floor(Math.random() * 200);
 }
